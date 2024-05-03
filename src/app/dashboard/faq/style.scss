@@ -1,0 +1,51 @@
+.faq-card{
+    padding: 20px;
+    margin-top: 20px;
+    .ant-card-body {
+        padding: 0px !important;
+    }
+}
+
+.search-header{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    padding-bottom: 15px;
+}
+.screen-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.margin-top-20{
+    margin-top: 38px !important;
+}
+
+.search-button{
+    background: #093185 !important;
+    border-radius: 4px !important;
+    .ant-input-search-button{
+        background: #093185 !important;
+        border: #093185 !important;
+    }
+}
+
+
+.panel-text-style{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.85);
+    margin-top:20px;
+}
+.question-pannel{
+    overflow: auto;
+    height: 200px;
+}

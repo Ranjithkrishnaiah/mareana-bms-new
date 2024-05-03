@@ -1,0 +1,29 @@
+.tresh-container {
+  padding: 0px 24px !important;
+  .ant-select-selector {
+    border-radius: 4px !important;
+  }
+  p {
+    margin-bottom: 3px !important;
+  }
+  .mt {
+    margin-top: 15px;
+  }
+  .apply-cont {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 14px;
+    gap: 22px;
+    align-items: center;
+    p {
+      margin-bottom: 0px !important;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: #262626;
+      cursor: pointer;
+    }
+  }
+}

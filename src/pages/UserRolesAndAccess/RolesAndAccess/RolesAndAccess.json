@@ -1,0 +1,105 @@
+{
+    "columns": [
+        {
+            "type": "input",
+            "name": "roles",
+            "label": "Roles",
+            "align": "center",
+            "editable": true,
+            "dataIndex": "roles",
+            "title": "Roles"
+        },
+        {
+            "type": "select",
+            "mode": "multiple",
+            "name": "resources",
+            "label": "Resources",
+            "align": "center",
+            "dataIndex": "resources",
+            "title": "Resources",
+            "options": [
+                {
+                    "label": "Chart",
+                    "value": "chart"
+                },
+                {
+                    "label": "Report",
+                    "value": "report"
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "mode": "multiple",
+            "name": "visibility",
+            "label": "Visibility",
+            "align": "center",
+            "dataIndex": "visibility",
+            "title": "Visibility",
+            "options": [
+                {
+                    "label": "Approved",
+                    "value": "approved"
+                },
+                {
+                    "label": "Draft",
+                    "value": "draft"
+                },
+                {
+                    "label": "Awaiting Approval",
+                    "value": "awaiting_approval"
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "mode": "multiple",
+            "name": "access",
+            "label": "Access",
+            "align": "center",
+            "dataIndex": "access",
+            "title": "Access",
+            "options": [
+                {
+                    "label": "Read",
+                    "value": "read"
+                },
+                {
+                    "label": "Main",
+                    "value": "main"
+                }
+            ]
+        }
+    ],
+    "dataSource": [
+        {
+            "key": 0,
+            "roles": "CMO",
+            "resources": ["chart"],
+            "visibility": ["approved"],
+            "access": ["read"]
+        },
+        {
+            "key": 1,
+            "roles": "Admin",
+            "resources": ["report"],
+            "visibility": ["draft"],
+            "access":["main"]
+        },
+        {
+            "key": 2,
+            "roles": "User",
+            "resources": ["chart"],
+            "visibility":[ "awaiting_approval"],
+            "access": ["read"]
+        }
+    ],
+    "rowInitialData": {
+        "key": null,
+        "roles": "Dummy Role",
+        "resources": [],
+        "visibility": [],
+        "access": []
+    },
+    "deleteActionColumn": false
+}

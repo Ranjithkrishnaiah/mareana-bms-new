@@ -1,0 +1,112 @@
+.bread-wrapper {
+  .bread-crumb-wrapper {
+    box-shadow: none !important;
+  }
+  .tab-container {
+    min-height: 83vh;
+    max-height: 83vh;
+    border-radius: 4px;
+    background: #ffffff;
+    padding: 0 !important;
+    box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.1);
+    .ant-tabs-nav-wrap {
+      background-color: #f1f7ff !important;
+      border-bottom: 1px solid #d9d9d9;
+      padding: 0px 26px;
+      border-radius: 4px 4px 0px 0px !important;
+      font-family: "Maven Pro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .ant-tabs-nav {
+      margin: 0px !important;
+    }
+    .ant-tabs-content {
+      padding-top: 16px !important;
+      max-height: 75vh;
+      overflow-y: auto;
+    }
+    .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+      color: #093185 !important;
+      font-weight: 500;
+    }
+    .ant-tabs-ink-bar {
+      background: #093185 !important;
+    }
+    .ant-tabs-tab .anticon {
+      margin-right: 8px !important;
+    }
+  }
+
+  .btns {
+    button {
+      margin-right: 16px;
+      background: #ffffff;
+      border: none !important;
+      border-radius: 4px;
+    }
+    svg {
+      color: #093185 !important;
+    }
+  }
+
+  .schedule-modal {
+    .ant-modal-body {
+      padding: 0px !important;
+    }
+  }
+  .schedule-menu {
+    .ant-tabs-nav-wrap {
+      padding: 4px 0px;
+      height: 534px;
+      background: #001529;
+      box-shadow: inset -1px 0px 0px #f0f0f0;
+    }
+    .ant-tabs-tab {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: grey;
+    }
+    .ant-tabs-tab-btn:hover {
+      color: #ffffff;
+    }
+    .ant-tabs-tab-active {
+      > .ant-tabs-tab-btn {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #ffffff;
+      }
+    }
+    .ant-tabs-ink-bar {
+      background: transparent;
+    }
+  }
+
+  .schedule-alerts {
+    padding: 24px 24px 0px 0px;
+  }
+  .alerts-text {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    .alert-title {
+      color: #000000;
+    }
+    .alert-arrow {
+      text-decoration-line: underline;
+      color: #093185;
+    }
+  }
+}

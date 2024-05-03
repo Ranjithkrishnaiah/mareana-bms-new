@@ -1,0 +1,215 @@
+{
+    "columns": [
+        {
+            "type": "input",
+            "name": "user",
+            "label": "User",
+            "align": "center",
+            "editable": true,
+            "dataIndex": "user",
+            "title": "User"
+        },
+        {
+            "type": "select",
+            "mode": "single",
+            "name": "role",
+            "label": "Role",
+            "align": "center",
+            "dataIndex": "role",
+            "title": "Role",
+            "options": [
+                {
+                    "label": "CMO",
+                    "value": "cmo"
+                },
+                {
+                    "label": "CEO",
+                    "value": "ceo"
+                },
+                {
+                    "label": "CTO",
+                    "value": "cto"
+                },
+                {
+                    "label": "Admin",
+                    "value": "admin"
+                },
+                {
+                    "label": "Approvar",
+                    "value": "approvar"
+                }
+            ]
+        },
+        {
+            "type": "select",
+            "mode": "multiple",
+            "name": "approvar_resource",
+            "label": "Approvar Resource",
+            "align": "center",
+            "dataIndex": "approvar_resource",
+            "title": "Approvar Resource",
+            "options": [
+                {
+                    "label": "Chart",
+                    "value": "chart"
+                },
+                {
+                    "label": "View",
+                    "value": "view"
+                },
+                {
+                    "label": "All",
+                    "value": "all"
+                }
+            ]
+        },
+        {
+            "title": "Allowed access to",
+            "dataIndex": "allowed_access_to",
+            "align": "center",
+            "type": "parent",
+            "children": [
+                {
+                    "type": "select",
+                    "mode": "multiple",
+                    "name": "molecule",
+                    "label": "Molecule",
+                    "align": "center",
+                    "dataIndex": "molecule",
+                    "title": "Molecule",
+                    "options": [
+                        {
+                            "label": "Molecule 1",
+                            "value": "mol1"
+                        },
+                        {
+                            "label": "Molecule 2",
+                            "value": "mol2"
+                        },
+                        {
+                            "label": "Molecule 3",
+                            "value": "mol3"
+                        },
+                        {
+                            "label": "Molecule 4",
+                            "value": "mol4"
+                        }
+                    ]
+                },
+                {
+                    "type": "select",
+                    "mode": "multiple",
+                    "name": "site",
+                    "label": "Site",
+                    "align": "center",
+                    "dataIndex": "site",
+                    "title": "Site",
+                    "options": [
+                        {
+                            "label": "Site 1",
+                            "value": "111"
+                        },
+                        {
+                            "label": "Site 2",
+                            "value": "222"
+                        }
+                    ]
+                },
+                {
+                    "title": "Data Access",
+                    "dataIndex": "data_access",
+                    "type": "parent",
+                    "children": [
+                        {
+                            "type": "toggle",
+                            "name": "approved",
+                            "label": "Approved",
+                            "align": "center",
+                            "dataIndex": "approved",
+                            "title": "Approved",
+                            "toggleTextTrue": "",
+                            "toggleTextFalse": ""
+                         
+                        },
+                        {
+                            "type": "toggle",
+                            "name": "unapproved",
+                            "label": "Unapproved",
+                            "align": "center",
+                            "dataIndex": "unapproved",
+                            "title": "Unapproved",
+                            "toggleTextTrue": "",
+                            "toggleTextFalse": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "toggle",
+            "name": "lock_user",
+            "label": "Lock User",
+            "align": "center",
+            "dataIndex": "lock_user",
+            "title": "Lock User",
+            "toggleTextTrue": "",
+            "toggleTextFalse": ""
+        }
+    ],
+    "dataSource": [
+        {
+            "user": "edward@mareana.com",
+            "role": "cto",
+            "approvar_resource": ["chart", "view"],
+            "molecule": [
+                "mol1",
+                "mol3"
+            ],
+            "site": [
+                "111"
+            ],
+            "approved": false,
+            "unapproved": true,
+            "lock_user": false
+        },
+        {
+            "user": "kristine@mareana.com",
+            "role": "admin",
+            "approvar_resource": ["view"],
+            "molecule": [
+                "mol2"
+            ],
+            "site": [
+                "222"
+            ],
+            "approved": true,
+            "unapproved": true,
+            "lock_user": false
+        },
+        {
+            "user": "jennie@mareana.com",
+            "role": "approvar",
+            "approvar_resource": ["all"],
+            "molecule": [
+                "mol4"
+            ],
+            "site": [
+                "222"
+            ],
+            "approved": true,
+            "unapproved": true,
+            "lock_user": false
+        }
+    ],
+    "rowInitialData": {
+        "user": "username@gmail.com",
+        "role": "",
+        "approvar_resource": [],
+        "molecule": [],
+        "site": [],
+        "approved": false,
+        "unapproved": true,
+        "lock_user": false
+    },
+    "deleteActionColumn": true
+}

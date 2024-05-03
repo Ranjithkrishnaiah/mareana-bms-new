@@ -1,0 +1,91 @@
+{
+    "data": [
+        {
+            "chart_id": "",
+            "chart_name": "",
+            "chart_description": "",
+            "chart_version": "",
+            "chart_status": 0,
+            "view_id": "",
+            "view_name": "",
+            "view_version": "0",
+            "data_filter": {
+                "date_range": "",
+                "unapproved_data": 1,
+                "site": ""
+            },
+            "chart_type": "",
+            "chart_mapping": {
+                "x": {},
+                "y": {}
+            },
+            "data": {
+                "type": "",
+                "mode": "markers",
+                "marker": {
+                    "color": "#5B8FF9",
+                    "size": 15
+                }
+            },
+            "layout": {
+                "width": "900",
+                "height": "",
+                "showlegend": "",
+                "plot_bgcolor": "",
+                "legend": {
+                    "title": {
+                        "text": "",
+                        "font": {
+                            "color": "",
+                            "size": ""
+                        },
+                        "side": ""
+                    },
+                    "borderwidth": "",
+                    "bgcolor": "",
+                    "orientation": "",
+                    "bordercolor": ""
+                },
+                "xaxis": {
+                    "type": "",
+                    "title": {
+                        "text": "",
+                        "font": {
+                            "size": "",
+                            "color": ""
+                        }
+                    },
+                    "visible": true,
+                    "showticklabels": "",
+                    "showline": "",
+                    "gridcolor": "",
+                    "showgrid": ""
+                },
+                "yaxis": {
+                    "type": "",
+                    "title": {
+                        "text": "",
+                        "font": {
+                            "size": "",
+                            "color": ""
+                        }
+                    },
+                    "visible": "",
+                    "showticklabels": "",
+                    "showline": "",
+                    "gridcolor": "",
+                    "showgrid": ""
+                }
+            },
+            "exclusions": [],
+            "violations": [],
+            "limits": {
+                "control": [],
+                "warning": [],
+                "specification": []
+            },
+            "alerts": []
+        }
+    ],
+    "extras": {}
+}

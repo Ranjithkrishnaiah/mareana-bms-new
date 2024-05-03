@@ -1,0 +1,82 @@
+.limit-container {
+  padding: 0px 26px;
+  p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+  }
+  .ant-table-thead > tr > th {
+    background: #f0f7fa;
+    padding: 12px 8px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .ant-table-tbody > tr > td {
+    padding: 12px 8px;
+    input {
+      width: 74px;
+    }
+  }
+  td:nth-child(1) {
+    text-align: center;
+    font-size: 16px;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9 !important;
+  }
+  .p-b {
+   p {
+     margin-bottom: 6px !important;
+   }
+  }
+  .table-bottom {
+    margin-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+    .control-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      p {
+        margin-bottom: 0px !important;
+      }
+      .custom-primary-btn {
+        margin: 0px !important;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #262626;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        border: 1px solid #093185;
+        background: #fff;
+      }
+      .custom-primary-btn:focus,
+      .custom-primary-btn:hover {
+        color: #fff;
+        border-color: #486bc9;
+        background: #486bc9;
+      }
+    }
+  }
+  .add-button {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #f0f0f0;
+    border-top: none;
+    button {
+      border: 1px dashed #d9d9d9;
+      margin: 5px 0px 5px 0px;
+      width: fit-content;
+    }
+  }
+}

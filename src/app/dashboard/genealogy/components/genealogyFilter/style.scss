@@ -1,0 +1,141 @@
+/**
+ * @author Dinesh Kumar <dinesh.kumar@mareana.com>
+ * @version 1
+ * @Last Modified - 14 March, 2022
+ */
+.custom-tabs {
+	background: #ffffff;
+	box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	.ant-tabs-nav {
+		background: #f1f7ff;
+		border-radius: 4px 4px 0px 0px;
+		/* Inside auto layout */
+		flex: none;
+		order: 0;
+		align-self: stretch;
+		flex-grow: 0;
+		margin: 0px 0px;
+		border-bottom: 1px solid #cacaca;
+		padding: 0px 26px;
+		.ant-tabs-nav-wrap {
+			overflow: visible;
+		}
+		.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+			color: #093185;
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 24px;
+		}
+		.ant-tabs-tab {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 24px;
+			/* identical to box height, or 150% */
+			margin: 0 30px 0 0;
+			display: flex;
+			align-items: center;
+
+			/* Character/Primary .85 */
+			background: #f1f7ff;
+			border: 0;
+			color: rgba(0, 0, 0, 0.85);
+			padding: 8px 2px;
+		}
+		.ant-tabs-ink-bar {
+			background: #093185;
+			bottom: -1px;
+		}
+	}
+}
+.param-filter-wrap {
+	padding: 32px 26px 32px 26px;
+	.param-filter {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+		grid-gap: 24px 26px;
+		div {
+			.select_field_search {
+				padding: 0 0 28px 0;
+			}
+		}
+	}
+	.param-filter-btn {
+		padding-top: 26px;
+		button {
+			padding: 5px 40px;
+		}
+	}
+}
+
+.tab-label {
+	padding-left: 24px;
+	margin: 0px;
+
+	.tree-type-icon {
+		position: absolute;
+		width: 20px;
+		height: 20px;
+
+		left: 0;
+	}
+}
+
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-ink-bar,
+.ant-tabs-card > div > .ant-tabs-nav .ant-tabs-ink-bar {
+	visibility: visible;
+}
+
+.popout-table {
+	border: 1px solid #eaeaea;
+	margin: 8px 26px;
+	border-radius: 4px;
+	.drawer-title {
+		padding: 15px 27px;
+		border-bottom: 1px solid #eaeaea;
+		> p {
+			margin: 0px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 24px;
+			/* identical to box height, or 150% */
+			display: flex;
+			align-items: center;
+			/* Character/Title .85 */
+			color: rgba(0, 0, 0, 0.85);
+		}
+	}
+}
+.file-upload-modal {
+	.ant-modal-content {
+		.ant-modal-body {
+			padding: 0px !important;
+		}
+	}
+	.ant-upload-drag-container {
+		padding: 0 16px;
+		.ant-upload-drag-icon {
+			span {
+				color: #093185 !important;
+			}
+		}
+	}
+	.ant-upload-list-item {
+		padding: 30px 75px !important;
+	}
+	.file-upload-section {
+		padding: 10px 15px;
+		.upload-btn {
+			display: flex;
+			flex-direction: row;
+			direction: rtl;
+			gap: 12px;
+		}
+	}
+}

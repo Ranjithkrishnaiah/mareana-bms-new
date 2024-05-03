@@ -1,0 +1,51 @@
+{
+    "dashboard_disp_id": "",
+    "dashboard_descr": "",
+    "dashboard_info": "",
+    "created_by": "",
+    "created_on": "",
+    "changed_by": "",
+    "changed_on": "",
+    "dashboard_name": "",
+    "dashboard_description": "",
+    "version": "",
+    "dashboard_version": "",
+    "dashboard_status": 0,
+    "data_filter": {
+        "date_range": "",
+        "unapproved_data": 0,
+        "site": ""
+    },
+    "dynamic_ranges": [{
+            "function": "",
+            "min": 20,
+            "max": 40,
+            "lower": 25,
+            "upper": 35
+        },
+        {
+            "batches": [],
+            "selected": []
+        }
+    ],
+    "panels": [{
+            "id": "",
+            "position": {
+                "h": 1,
+                "w": 2,
+                "x": 0,
+                "y": 0
+            },
+            "source_type": "",
+            "source_id": "",
+            "chart_id":"",
+            "chart_name":"",
+            "data_filter": {
+                "date_range": "",
+                "unapproved_data": 0,
+                "site": "",
+                "site_list":[]
+            }
+        }
+    ]
+}

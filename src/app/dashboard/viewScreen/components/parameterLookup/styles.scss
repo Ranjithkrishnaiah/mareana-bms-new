@@ -1,0 +1,31 @@
+.parameterLookup-FormBlock {
+	padding: 18px 25px 24px 25px;
+
+	.param-select {
+		flex-direction: row;
+		display: flex;
+		justify-content: space-between;
+		// display: grid;
+		// grid-template-columns: 1fr 4fr;
+		// grid-gap: 20px;
+		// align-items: center;
+
+		&:first-of-type {
+			margin-bottom: 36px !important;
+		}
+
+		.ant-col.ant-form-item-label {
+			padding-bottom: 0px;
+		}
+		p {
+			margin: 0;
+			width: 100px;
+		}
+	}
+	.ant-col.ant-form-item-label {
+		width: 65px;
+	}
+	.ant-col.ant-form-item-control {
+		width: 185px;
+	}
+}

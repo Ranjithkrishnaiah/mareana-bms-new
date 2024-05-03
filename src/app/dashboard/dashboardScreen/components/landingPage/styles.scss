@@ -1,0 +1,255 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-family: Roboto;
+	font-style: normal;
+	letter-spacing: 0em;
+}
+.ant-card-body {
+	border-radius: 4px;
+}
+
+.banner {
+	padding-bottom: 4px;
+	.ant-card-body {
+		height: 168px;
+		background: linear-gradient(180deg, #d8e7ff 0%, #9bd0ee 100%);
+	}
+	.card-body-div {
+		padding-left: 6px;
+		padding-right: 8px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		:nth-child(3) {
+			margin-top: -80px;
+		}
+		img {
+			margin-top: 8px;
+		}
+		h6 {
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 22px;
+		}
+		.text-descp {
+			h2 {
+				font-size: 24px;
+				font-weight: 400;
+				line-height: 22px;
+			}
+			h6 {
+				color: #666666 !important;
+			}
+			p {
+				font-size: 18px;
+				font-weight: 300;
+				line-height: 22px;
+			}
+		}
+	}
+}
+
+.dashboard-landing-content {
+	margin-top: 5px;
+	.ant-card-body {
+		min-height: 65vh;
+	}
+	.ant-input-search-button {
+		background-color: #093185 !important;
+	}
+	.ant-input-search-button:hover {
+		background: #486bc9 !important;
+	}
+	.p36 {
+		padding: 12px 18px;
+	}
+	.dashboard-search{
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 22px;
+		color: #8C8C8C;
+	}
+	.create-new {
+		height: 137px;
+		width: 230px;
+		border-radius: 4px;
+		background: #ffffff;
+		border: 1px dashed #d9d9d9;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		margin-top: 13px;
+		margin-bottom: 10px;
+		cursor: pointer;
+		svg {
+			//cursor: pointer;
+			margin-top: 10px !important;
+			font-size: 40px;
+			color: #cbcbcb;
+		}
+		p {
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 22px;
+			color: #494949;
+		}
+	}
+	.create-new:hover {
+		border: 1px dashed #40a9ff;
+		p {
+			color: #40a9ff;
+		}
+	}
+}
+
+.dashboard-recent-charts {
+	.ant-divider-horizontal {
+		margin: 0px !important;
+		margin-bottom: 12px !important;
+	}
+	h3 {
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 22px;
+	}
+	.chart-tiles {
+		height: 84px;
+
+		border-radius: 4px;
+		p {
+			margin-bottom: 0px !important;
+		}
+		.legend {
+			margin-top: -17px;
+			background: orange;
+			margin-left: 107px;
+			padding: 0px 10px;
+			border-radius: 0px 4px;
+		}
+		.cid {
+			font-family: Roboto;
+			font-size: 14px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 22px;
+			letter-spacing: 0em;
+			text-align: left;
+		}
+		.chartName {
+			font-family: Roboto;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 300;
+			line-height: 22px;
+			letter-spacing: 0em;
+			text-align: left;
+		}
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		border-radius: 4px;
+		background: #e2e8f2;
+		cursor: pointer;
+	}
+}
+
+.dashboard_head {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	// width: 1332px;
+	height: 185px;
+	background: linear-gradient(180deg, #e7e6ff 0%, #fff4f4 100%);
+	box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	.ant-card-body {
+		display: flex;
+		flex: 1;
+		flex-direction: row;
+		padding-top: 40px;
+	}
+}
+
+.dashboard-username {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 22px;
+	color: #000000;
+}
+.dashboard-text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+}
+.dashboard-illustration {
+	height: 137px;
+}
+.dashboard-resultdate {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #666666;
+}
+
+.dashboard-landing-modal {
+	.ant-modal-header{
+		background: #F1F7FF !important;
+		border-radius: 4px 4px 0px 0px;
+	}
+	.ant-modal-content {
+		width: 787px;
+		height: auto;
+		background: #ffffff;
+		border-radius: 4px;
+	}
+	.ant-modal-footer {
+		border-top: 0px;
+		padding: 10px 16px 25px 16px;
+	}
+}
+.dashboard-modal-layout {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 24px;
+}
+.dashboard-field-layout {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	row-gap: 24px;
+}
+
+.chart-view {
+	background: #e2e8f2;
+	border-radius: 4px;
+	margin-top: 20px;
+	padding: 24px;
+}
+.chart-preview-text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px !important;
+	line-height: 22px;
+	color: #000000;
+	font-size: 14px;
+	margin-bottom: 0px !important;
+}

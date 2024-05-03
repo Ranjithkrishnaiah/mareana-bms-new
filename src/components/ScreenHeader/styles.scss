@@ -1,0 +1,50 @@
+.screen_header_wrap {
+	border: 0;
+	.ant-card-body {
+		padding: 0px;
+		.screen_header_head {
+			display: grid;
+			grid-template-columns: 1fr 1fr 150px;
+			grid-gap: 14px;
+			padding: 0 26px;
+			border-radius: 4px;
+		}
+	}
+	box-shadow: 1px 1px 14px rgba(0, 0, 0, 0.1);
+	height: 168px;
+}
+
+.screen_header_username {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 22px;
+	color: #000000;
+	padding-top: 47px;
+}
+.screen_header_text {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+}
+.screen_header_resultdate {
+	padding-top: 47px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #666666;
+	float: right;
+}
+
+.geanealogy-image {
+	text-align: center;
+	img {
+		height: 165px;
+	}
+}

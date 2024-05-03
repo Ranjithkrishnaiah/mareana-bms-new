@@ -1,0 +1,26 @@
+.schedule-table
+{
+    .ant-table .ant-table-thead > tr > th {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #262626;
+        background: rgba(242, 251, 255, 1);
+        border-radius: 0px 2px 0px 0px;
+        padding: 10px !important;
+      }
+    
+      .ant-table-tbody > tr > td {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #000000;
+        // border: none;
+        // border-bottom: 1px solid #d9d9d9;
+        padding: 10px !important;
+      } 
+}

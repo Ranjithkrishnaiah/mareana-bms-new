@@ -1,0 +1,84 @@
+.ant-card-body {
+    padding: 12px;
+}
+
+.btns {
+    button {
+        margin-right: 16px;
+        background: #FFFFFF;
+        border: 1px solid #093185;
+        border-radius: 4px; 
+    }
+    button:nth-child(3n) {
+        background-color: #093185;
+        color:white ;
+        .anticon{
+            margin-left: 0px !important;
+            margin-right: 2px !important;
+        }
+    }
+    .anticon-more {
+        font-size: 20px;
+    }
+}
+
+.schedule-modal{
+    .ant-modal-body{
+        padding:0px !important;
+    }
+    
+}
+.schedule-menu{
+    .ant-tabs-nav-wrap{     
+padding: 4px 0px;
+height: 534px;
+background: #001529;
+box-shadow: inset -1px 0px 0px #F0F0F0;
+    }
+    .ant-tabs-tab {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: grey;
+    }
+    .ant-tabs-tab-btn:hover{
+        color: #FFFFFF;
+    }
+    .ant-tabs-tab-active {
+    > .ant-tabs-tab-btn {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+  }
+    .ant-tabs-ink-bar {
+        background: transparent;
+      }
+}
+
+.schedule-alerts{
+    padding: 24px 24px 0px 0px;
+}
+.alerts-text{
+display: flex;
+justify-content: space-between;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+.alert-title{
+    color: #000000;
+}
+.alert-arrow{
+text-decoration-line:underline;
+color: #093185;
+}
+
+
+}

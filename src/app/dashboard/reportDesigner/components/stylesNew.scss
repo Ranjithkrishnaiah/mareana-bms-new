@@ -1,0 +1,47 @@
+.reportDesigner-grid-tables
+{
+    display: grid;
+    // grid-template-columns: 0.5fr 1.5fr;
+    grid-gap: 10px;
+}
+.reportTableCard{
+    min-height: 525px;
+    // max-height: 125px;
+    // overflow-y: auto;
+    background-color: white !important;
+}
+
+.table-row-dark {
+    background-color: #fff666;
+}
+
+.new-empty-block{
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    font-feature-settings: "tnum";
+    min-height: 300px;
+    max-height: 500px;
+    overflow-y: auto;
+    background-color: white !important;
+    margin-bottom: 15px;
+}
+
+.empty-block{
+    height: 300px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .ant-empty-img-simple{
+        height: 200px;
+        width: 200px;
+    }
+    .ant-empty-description{
+        padding-top: 109px !important;
+    }
+ }

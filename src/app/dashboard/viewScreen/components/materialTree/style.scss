@@ -1,0 +1,65 @@
+// .custom-treenode {
+// 	.ant-tree-treenode-leaf-last {
+// 		.ant-tree-checkbox {
+// 			.ant-tree-checkbox-inner {
+// 				display: none;
+// 			}
+// 		}
+// 	}
+// 	.ant-tree-treenode-switcher-close {
+// 		.ant-tree-checkbox {
+// 			position: absolute;
+// 			right: 0;
+// 			.ant-tree-checkbox-inner {
+// 				background-image: url('../../../../../assets/images/plus_icon.png');
+// 				background-size: auto;
+// 				background-repeat: no-repeat;
+// 				right: 85px;
+// 				top: 1px;
+// 				background-color: transparent;
+// 				border-color: transparent;
+// 			}
+// 			.ant-tree-checkbox-inner:after {
+// 				position: absolute;
+// 				top: 50%;
+// 				left: 21.5%;
+// 				display: table;
+// 				width: 5.71428571px;
+// 				height: 9.14285714px;
+// 				border: 2px solid #fff;
+// 				border-top: 0;
+// 				border-left: 0;
+// 				transform: rotate(45deg) scale(0) translate(-50%, -50%);
+// 				opacity: 0;
+// 				transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+// 				background-image: url('../../../../../assets/images/checked.png');
+// 				content: ' ';
+// 			}
+// 			.ant-tree-checkbox-checked:after {
+// 				position: absolute;
+// 				top: 50%;
+// 				left: 21.5%;
+// 				display: table;
+// 				width: 5.71428571px;
+// 				height: 9.14285714px;
+// 				border: 2px solid #fff;
+// 				border-top: 0;
+// 				border-left: 0;
+// 				transform: rotate(45deg) scale(0) translate(-50%, -50%);
+// 				opacity: 0;
+// 				transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+// 				background-image: url('../../../../../assets/images/checked.png');
+// 				content: ' ';
+// 			}
+// 		}
+// 	}
+// }
+// .ant-tree-checkbox-checked .ant-tree-checkbox-inner {
+// 	background-image: url('../../../../../assets/images/checked.png') !important;
+// 	background-size: auto !important;
+// 	background-repeat: no-repeat !important;
+// 	right: 85px !important;
+// 	top: 1px !important;
+// 	background-color: transparent;
+// 	border-color: transparent;
+// }

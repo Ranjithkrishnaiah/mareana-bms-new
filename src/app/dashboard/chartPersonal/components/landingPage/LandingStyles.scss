@@ -1,0 +1,229 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: Roboto;
+  font-style: normal;
+  letter-spacing: 0em;
+}
+.ant-card-body {
+  border-radius: 4px;
+}
+
+.banner {
+  padding-bottom: 4px;
+  margin: 0px !important;
+  .ant-card-body {
+    height: 168px;
+    background: linear-gradient(180deg, #d8e7ff 0%, #9bd0ee 100%);
+  }
+  .card-body-div {
+    padding-left: 6px;
+    padding-right: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    :nth-child(3) {
+      margin-top: -80px;
+    }
+    img {
+      margin-top: -9px;
+    }
+    h6 {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+    }
+    .text-descp {
+      h2 {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 22px;
+      }
+      h6 {
+        color: #666666 !important;
+      }
+      p {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+.landing-content {
+  margin-top: 5px;
+  a {
+    color: #000000 !important;
+  }
+  input::placeholder {
+    color: #8c8c8c !important;
+    font-weight: 400 !important;
+  }
+  .ant-card-body {
+    min-height: 65vh;
+  }
+  .ant-input-search-button {
+    background-color: #093185 !important;
+  }
+  .ant-input-search-button:hover {
+    background: #486bc9 !important;
+  }
+  .p36 {
+    padding: 12px 18px;
+  }
+  .table-data {
+    .ant-table-thead > tr > th {
+      background: transparent !important;
+      padding: 8px !important;
+    }
+    .ant-table-measure-row {
+      visibility: collapse !important;
+    }
+    .ant-table-tbody > tr > td {
+      padding: 8px !important;
+      word-break: break-all;
+    }
+  }
+  .create-new {
+    height: 137px;
+    width: 230px;
+    border-radius: 4px;
+    background: #ffffff;
+    border: 2px dashed #d9d9d9;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    svg {
+      cursor: pointer;
+      margin-top: 10px !important;
+      font-size: 40px;
+      color: #cbcbcb;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 22px;
+      color: #494949;
+    }
+  }
+  .create-new:hover {
+    border: 2px dashed #40a9ff;
+    p {
+      color: #40a9ff;
+    }
+  }
+}
+
+.recent-charts {
+  .ant-divider-horizontal {
+    margin: 0px !important;
+    margin-bottom: 12px !important;
+  }
+  .title {
+    display: flex;
+    justify-content: space-between;
+  }
+  .title-legends {
+    display: flex;
+    justify-content: flex-end;
+    dl dt {
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+    dl dd {
+      display: inline-block;
+      margin: 0px 12px;
+      padding-bottom: 0;
+      vertical-align: middle;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 10px;
+    }
+    dl dt.grey {
+      background: #363636;
+    }
+    dl dt.yellow {
+      background: #f6ba60;
+    }
+    dl dt.green {
+      background: #a4f588;
+    }
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .chart-tiles {
+    height: 84px;
+    width: 162px;
+    border-radius: 4px;
+    position: relative;
+    .chart-info {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    p {
+      margin-bottom: 0px !important;
+    }
+    .legend {
+      padding: 4px 12px;
+      height: 17px;
+      border-radius: 0px 4px;
+      margin-right: right;
+      position: absolute;
+      top: 0%;
+      right: 0%;
+      align-content: center;
+      p {
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 10px;
+      }
+    }
+    .cid {
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0em;
+    }
+    .chartName {
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 22px;
+      letter-spacing: 0em;
+    }
+    text-align: center;
+    background: #e2e8f2;
+  }
+  font-family: Roboto;
+  font-style: normal;
+  letter-spacing: 0em;
+}
+.ant-card-body {
+  border-radius: 4px;
+}

@@ -1,0 +1,134 @@
+body {
+	overflow: visible;
+}
+
+.create-new-row {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 2rem;
+}
+
+.create-new {
+	height: 137px;
+	width: 175px;
+	border-radius: 4px;
+	background-color: #ffffff;
+	border: 1px dashed #d9d9d9;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	margin-bottom: 1rem;
+	padding: 20px !important;
+	cursor: pointer;
+	width: 100%;
+
+	svg {
+		margin-top: 10px !important;
+		font-size: 40px;
+		color: #cbcbcb;
+	}
+
+	p {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 22px;
+		color: #494949;
+		
+	}
+}
+
+.create-new ~ p {
+	text-align: center;
+}
+
+.create-new:hover {
+	border: 1px dashed #40a9ff;
+
+	p {
+		color: #40a9ff;
+	}
+}
+
+.dashboard-image img {
+    position: relative;
+    top: 19px;
+}
+
+.custom-user-roles-wrapper .ant-card.ant-card-bordered.screen_header_wrap {
+	margin: 15px 0;
+}
+
+.custom-user-roles-wrapper {
+    padding: 0 30px;
+}
+
+.custom-user-roles-wrapper .ant-row {
+    background: #fff;
+    padding: 20px 15px;
+    margin-top: 15px;
+	border-radius: 5px;
+}
+
+.custom-user-roles-sub-header {
+    background: #F1F7FF;
+    margin: 15px 0 0;
+    padding: 10px 15px;
+}
+
+.custom-user-roles-sub-header .sub-header-title {
+	width: 25%;
+	cursor: pointer;
+}
+
+.custom-user-roles-sub-header .header-title {
+    display: inline-block;
+	word-wrap: normal;
+}
+
+.custom-table-wrapper {
+    background: #fff;
+    padding: 15px 20px;
+}
+
+.panel-delete-button {
+	width: 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.custom-panel p {
+    display: inline-block;
+    min-width: 20%;
+    vertical-align: top;
+    margin: 11px 0 0 0;
+}
+
+custom-panel .panel-repeat {
+    display: inline-block;
+    min-width: 80%;
+}
+
+.custom-panel .panel-repeat {
+    display: inline-block;
+    min-width: 80%;
+    vertical-align: top;
+}
+
+.ant-col.ant-col-18.custom-panel {
+    max-width: 80%;
+    flex: 0 0 80%;
+}
+
+.panel-repeat > div > span label {display: inline-block;margin: 0 10px 0;}
+
+.panel-repeat > div {
+    margin: 0 0 15px;
+}
+
+.panel-repeat > div > span .ant-select.ant-select-multiple {
+    margin-right: 20px !important;
+}

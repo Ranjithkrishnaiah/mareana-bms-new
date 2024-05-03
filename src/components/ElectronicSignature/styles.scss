@@ -1,0 +1,15 @@
+.electronic-sig
+{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px 20px;
+}
+.sign-select
+{
+    width: 200px;
+}
+.sign-cols{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px 20px;
+}
